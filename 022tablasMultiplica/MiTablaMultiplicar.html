@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Tabla de multiplicar</h1>
+    <input id="in1" type="text" placeholder="¿Nº a multiplicar?">
+    <input id="in2" type="text" placeholder="¿Desde 1 hasta...?">
+
+    <button onclick=multiplicar()>¡MULTIPLICA!</button>
+
+    <ul id="tabla">
+        <li></li>
+    </ul>
+
+
+    <script>
+        //FUNCION MULTIPLICAR
+
+        function multiplicar() {
+
+            var multiplicando = document.getElementById("in1").value;
+            var multiplicador = document.getElementById("in2").value;
+            var miHtml = "";
+
+            for (var i = 1; i <= multiplicador; i++) {
+                var resultado = multiplicando + " x " + i + " es igual a " + multiplicando * i;
+                miHtml += "<li>" + resultado + "</li>"
+            }
+
+            document.getElementById("tabla").innerHTML = miHtml;
+        }
+    </script>
+
+
+</body>
+
+</html>

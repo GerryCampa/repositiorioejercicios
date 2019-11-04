@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style> 
+
+
+:root {
+  --ancho: 80%;
+}
+
+
+*{margin: 0; box-sizing: border-box;}
+
+    body{
+        font-family:monospace;
+        width:  var(--ancho);
+        min-width: 220px;
+        max-width: 1400px;
+        margin: 20px auto;
+        text-align: center;
+        }
+
+
+    /*esto ye nuestro estilo*/
+    h1{
+  
+        border:3px solid;
+        margin: 20px  auto;
+        padding: 20px;
+        overflow-wrap: break-word;
+      
+    }
+
+    #controlador{ width: var(--ancho); text-align: center; padding: 10px; position: fixed; bottom: 0; 
+    background: rgba(255,255,255,0.7);}
+    </style>
+</head>
+
+
+<body>
+
+    <h1 id="miPass"></h1>
+
+    <div id="controlador">
+    <input id="num" type="text" value="8" size="1">
+    
+    <button onclick="imprimir()">generador</button>
+
+</div>
+
+
+    <script>
+        var caracteres = "abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ012456789";
+
+
+        function imprimir() {
+
+            var inpt = document.getElementById("num").value;
+            
+            var pass = "";
+
+            for (var i = 1; i <= inpt; i++) {
+
+                var aleatorio = Math.floor(Math.random() * caracteres.length);
+                pass += caracteres.charAt(aleatorio);
+            }
+            document.getElementById('miPass').innerHTML = pass;
+        }
+
+
+        imprimir();
+
+        //setInterval(imprimir, 100)
+
+
+    </script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

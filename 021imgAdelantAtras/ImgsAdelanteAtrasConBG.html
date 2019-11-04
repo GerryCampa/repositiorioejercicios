@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: monospace;
+            width: 300px;
+
+            margin: 20px auto;
+            text-align: center;
+            background-size:5px 5px;
+        }
+
+        img {
+            width: 100%;
+            ;
+        }
+    </style>
+</head>
+
+
+<body id="queyeoh">
+
+    
+        <button onmouseover="atras()">atras</button>
+        <button onclick="adelante()">adelante</button>
+        <img id="foto" src="" alt="">
+
+    <script>
+        var miFoto = ['cerrado.png', 'abierto.png', 'sw1.jpg', 'sw2.jpg', 'sw3.jpg', 'earth.jpg','stars.gif'];
+        var numFoto = 0;
+        var carpeta ="img/";
+
+        function cargar() {
+            document.getElementById("foto").src=carpeta+miFoto[numFoto];
+            document.body.style.backgroundImage='url('+carpeta+miFoto[numFoto]+')';
+        }
+
+        function adelante() {
+            if(numFoto>=miFoto.length-1){
+                numFoto=0;
+            }
+            else{
+            numFoto++;         
+            }
+            cargar();
+        }
+
+        function atras() {
+            if(numFoto<=0){
+                numFoto=miFoto.length-1;
+                }
+            else{
+                numFoto--;
+            }
+            cargar();
+        }
+
+        cargar();
+</script>
+</body>
+
+</html>
