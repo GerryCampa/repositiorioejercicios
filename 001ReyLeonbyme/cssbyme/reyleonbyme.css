@@ -1,0 +1,45 @@
+/*esto son los comentarios q nunca me acuerdo como hacer*/
+
+body{
+    background: lightblue;
+    font-family: sans-serif ;
+    
+    max-width: 750px;
+    margin: 0 auto;
+        
+}
+
+a{text-decoration: none;}
+
+header{background:orange; border-radius: 20px}
+
+header nav ul li{ display: inline-block;} /*ESTO NO LO ENTIENDO*/
+
+header h2{color:white;}
+
+header nav ul{ background: white;padding: 6px; }
+
+header nav ul li a {color:orange; font-weight: bold;}
+
+
+section{background:white;}
+
+article h1{background:lightgrey;}
+article h2{color:grey; font-weight: normal; font-size:18px}
+article h3{color: orange ;text-transform: uppercase; font-size: 12px; margin: 0 ;} a /*NO ENTIENDO ESTA "a" */
+
+article h1{font-size: 28px;}
+
+footer{
+    background: grey;
+    color: white;
+    border-radius:  20px;}
+    
+    header, section, footer{
+    padding: 10px; 
+    margin: 10px;
+    box-shadow: 2px 3px 8px;}
+
+img{width: 100%;}
+
+.piedepagina{ color:grey; font-size; 14px;}
