@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+*{margin: 0;padding: 0;bottom: 0;box-sizing: border-box;}
+
+html{font-family: Montserrat, sans-serif;
+  background: url(https://images.unsplash.com/photo-1500835556837-99ac94a94552?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ) center center fixed;
+
+background-size:cover;
+padding: 70px 16px 0px 16px;}
+
+
+body{background: rgba(255,255,255,.6);
+padding: 10px; border-radius: 30px; box-shadow: 4px 5px 8px rgba(0,0,0,.8); max-width:440px; margin: 56px auto; min-height:150px;
+text-align:center;
+}
+
+form p{margin:40px;}
+form input[type="text"]{ border-radius:26px; border:solid 1px grey; padding: 4px; background:none; text-align:center; font-family: serif; font-style: italic; font-weight: normal; font-size: 18px; }
+
+form input[type="text"]:focus{ background:#FFF; }
+
+form input[type="submit"]{
+  max-width: 320px;
+    min-width: 180px;
+    border-radius: 81px;
+    border: solid 2px orange;
+    padding: 12px;
+    background: orange;
+    font-size: 24px;
+    margin: 10px auto;
+    display: block;}
+
+form input[type="submit"]:hover{background: black; color:orange; cursor: pointer;}
+
+a.forgot{text-decoration: none; color:rgba(0,0,0,.7); font-size: 10px;}
+a.forgot:hover {color:black;}
+
+h1.topLogo{text-indent:-9999px; width: 200px; height: 200px; background: url(https://img.icons8.com/clouds/2x/travel-book.png) center center no-repeat; margin: -110px auto 50px auto;}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+
+    <style>
+        html {
+            background: darkgrey;
+        }
+
+        body {
+            padding: 50px;
+            font-family: sans-serif;
+            width: 450px;
+            margin: 0 auto;
+            margin-top: 40px;
+            background: lightgrey;
+            border-radius: 40px;
+            ;
+        }
+
+        input {
+            border: grey 1px solid;
+            border-radius: 20px;
+            padding: 15px;
+            color: red;
+            text-align: center;
+            width: 150px
+        }
+
+
+
+        input[type="submit"],
+        input[type="reset"] {
+            color: white;
+            background: black;
+            padding: 10px 20px;
+        }
+
+
+        input[type="submit"]:hover,
+        
+        input[type="reset"]:hover {
+            color: black;
+            background: white;
+            padding: 10px 20px;
+            cursor: pointer;
+            
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .botonera {
+            clear: both;
+            margin-top: 70px;
+            margin-left: 40px;
+            width: 380px;
+            text-align: center;
+           
+            box-shadow: 2px 4px 9px 3px;
+        }
+
+        .botonera input {
+            width: 230px;
+            margin: 4px;
+            ;
+        }
+        
+        h2{
+            font-weight: 900;
+            box-shadow: 2px 4px 9px 3px;
+            text-align: center;
+            margin-top: auto;}
+    </style>
+
+
+
+
+
+</head>
+
+<body>
+
+    <form>
+        <h2> Surca los mares </h2>
+       
+        <p>Mi nombre es: <input type="text"> </p>
+        <br>
+        <p>Pon tus apellidos: <input type="text"> </p>
+
+        <h4> Qué navegante fue el mejor: </h4>
+        <p> <input type="radio" name="navegante"> Colón</p>
+        <p> <input type="radio" name="navegante"> Magallanes</p>
+        <p><input type="radio" name="navegante"> Elcano</p>
+
+        <h4> Qué naves te gustan </h4>
+        <p><input type="checkbox">La Pinta</p>
+        <p><input type="checkbox">La Victoria</p>
+        <p><input type="checkbox">La otra Victoria</p>
+        <p><input type="checkbox">El Glorioso</p>
+        <p><input type="checkbox">El Audaz</p>
+
+
+
+        <h4> Explica tus elecciones: </h4>
+        <textarea name="" id="" cols="50" rows="13">
+        Aquí...
+    </textarea>
+
+        <div class="botonera">
+            <input type="submit" value="Enviar formulario">
+            <input type="reset" value="borrar todo">
+        </div>
+
+
+
+
+
+
+
+    </form>
+
+
+
+</body></html> 

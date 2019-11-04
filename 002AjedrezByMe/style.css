@@ -1,0 +1,39 @@
+table{
+  border: solid 5px black;
+  font-family: sans-serif;
+  margin:0 auto;
+}
+
+td{
+  width: 60px;
+  height:60px;
+  background:#5F1E02 ;
+  text-align: center;
+  border: solid 2px white;
+  transition: 0.1s;
+  font-size: 40px;
+  font-family: arizonia;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}
+
+.n{background: black;}
+.b{background: white;}
+
+td.n:hover,
+td.b:hover{
+  transform: scale(1.4);
+  background: red;
+  box-shadow: 3px 3px 8px;
+  border-radius: 12px;
+}
+
+td.caballo:hover{
+  background: red url(https://icon-library.net/images/chess-knight-icon/chess-knight-icon-19.jpg) center center no-repeat ;
+  background-size: 80%;}
+
+td.caballo:active{ background-color: yellow; background-size: 60%;}
+
+body {
+ background-image: url("https://image.freepik.com/free-vector/wooden-texture_23-2147511826.jpg?1");

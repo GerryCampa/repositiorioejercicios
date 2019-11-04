@@ -1,0 +1,130 @@
+import{font-family: 'Quicksand', sans-serif;}
+
+*{margin:0; padding:0;}
+
+body{
+  font-family: sans-serif;
+  margin-bottom:58px;
+  background:#ed7800;
+}
+a{ text-decoration: none;}
+
+header{background:white; padding:10px; text-align:center;}
+
+header h1 {background: url(https://image.shutterstock.com/image-vector/burger-logo-260nw-672501460.jpg) center center no-repeat;
+background-size: auto 100%;
+text-indent:-9999px;
+height:100px;
+  }
+
+header h1:hover{ background-size: auto 160%;
+}
+
+
+#menu{ overflow: hidden;}
+
+.producto{
+  padding: 2%;
+  text-align: center;
+  width:20%;
+  height: 300px;
+  float:left;
+  box-sizing:border-box;
+  
+}
+
+.producto img{width: 80%;}
+.producto p{ opacity:.9;}
+
+.producto img,
+.producto h3,
+.efectoMarco,
+header h1{ transition: .3s;}
+
+.producto:hover img{
+  width: 100%;
+  margin-top:-30px;
+}
+
+.producto:hover h3{
+  letter-spacing:2px;
+  padding-bottom: 10px;
+  font-size: 30px; 
+  animation: 1s shake infinite alternate;
+ 
+}
+
+.producto:hover p{
+  letter-spacing:2px;
+  padding-bottom: 10px;
+  font-size: 100px;
+  color: white; 
+   animation: .8s shake infinite alternate;
+}
+
+@keyframes shake {
+  0% { transform: skewX(-30deg); }
+  5% { transform: skewX(-30deg); }
+  10% { transform: skewX(-30deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+ 
+}
+
+.escalaGrises img{
+  filter: grayscale(100%);
+}
+
+.escalaGrises:hover img{
+  filter: grayscale(0%);
+}
+
+
+.unTercio{ width: 33.3333%; height:480px;}
+
+header,
+footer{ clear: both;}
+
+
+
+.bg-rojo{   background: red;}
+.bg-verde{  background: green;}
+.bg-purpl{  background: purple;}
+.bg-azul{   background: lightblue;}
+.bg-oscuro{ background: #212529; color:white;}
+
+.efectoMarco{ border:0 solid white;}
+.efectoMarco:hover{border-width:20px;}
+
+footer{
+  background: #ed7800;
+  text-align: left;
+  padding: 2px;
+
+  width:100%;
+  position:fixed;
+  bottom: 0;
+}
+
+/* Botonico inferior */
+footer a{
+  color:white;
+  display: block;
+  padding: 6px;
+  border: 2px #FFF solid;
+  margin: 10px auto;
+  width: 220px;
+  text-align:center;
+  border-radius:20px;
+}
+
+/* al pasar por encima del botonico*/
+footer a:hover{
+  background:#CDEC40;
+  color:black;
+  font-size: 30px;
+  font-weight: bold;
+  width: 80%;
+  
+}

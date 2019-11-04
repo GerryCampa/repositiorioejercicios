@@ -1,0 +1,36 @@
+
+
+
+/*Texto infocurso pag inicio*/
+
+.infocurso{
+    font-size: 10px;
+    text-align: center;
+    margin-left: 20px;
+    font-weight: bold
+}
+
+
+
+/* hover iconos rrss alumnos*/
+
+.p-4 {transition: .5s;
+}
+
+.p-4:hover {transform: scale(1.6)}
+
+
+
+/*estilo enlace gene-e*/
+
+.bygenee {
+
+    font-family: 'Notable', sans-serif;
+    font-size: 25px;
+    color: rgb(245, 212, 146);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+
+}
+
+

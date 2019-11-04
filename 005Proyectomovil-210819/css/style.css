@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#device {
+    width: 720px;
+    height: 1280px;
+    border: 30px solid white;
+    background: white;
+    border-radius: 80px;
+    margin: 40px auto;
+    -webkit-box-shadow: 20px 12px 46px 32px rgba(0, 0, 0, 0.91);
+    box-shadow: 20px 12px 46px 32px rgba(0, 0, 0, 0.91);
+
+}
+
+.inputs {
+    text-align: center;
+    width: 300px;
+    height: 100px;
+}
+
+#pantalla {
+    width: 650px;
+    height: 79.9%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../fotos/idusk.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+
+
+}
+
+
+
+p {
+    color: white;
+    font-size: 20px;
+    text-align: center
+}
+
+
+.luna {
+    text-align: center;
+    margin-top: 100px;
+
+
+}
+
+.luna img:hover {
+    transform: scale(1.5);
+    transition: .3s
+}
+
+.user {
+    color: orange;
+    text-align: left;
+    margin-left: 70px;
+    font-weight: 900;
+}
+
+
+.psw {
+    color: orange;
+    text-align: left;
+    margin-left: 70px;
+    font-weight: 900;
+}
+
+
+.login {
+    background: orange;
+    width: 400px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 52px;
+    font-weight: 900;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+
+.login:hover {
+    transform: scale(1.4);
+    transition: .3s
+}
+
+.or {
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 75px
+}
+
+
+
+#detalles {
+    width: 720px;
+    height: 10%;
+    background: white;
+    border-radius: 64px 64px 0 0;
+    margin-top: .1em;
+}
+
+#botonpie {
+    width: 720px;
+    height: 10%;
+    background: white;
+    border-radius: 0 0 64px 64px;
+}
+
+
+
+
+#redes li img {
+    border-radius: 50px;
+    background: red;
+    width: 250px;
+    height: 60px;
+}
+
+#redes li img:hover {
+    transform: scale(1.3);
+    transition: .3s
+}
+
+#redes li {
+    display: inline-block;
+    margin-left: 47px;
+    margin-right: auto;
+    padding-top: 60px
+}
+
+.boton {
+    text-align: center;
+    margin-top: 30px;
+
+}

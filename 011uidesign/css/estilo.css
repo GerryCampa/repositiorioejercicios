@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {}
+
+#gcblock1 {
+    width: 700px;
+    height: 200px;
+    background-color: #f7fcfc;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+#gcblock1 img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#gcblock1 p {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#gcblock1 a {
+    font-size: 10px
+}
+
+#gcblock2 {
+    background-image: url('../img/gcpic2.jpg');
+    width: 700px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: auto
+}
+
+#gcblock2 h1 {
+    padding: 30px;
+}
+
+#gcblock2 p {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#gcblock2 a {
+    color: white;
+    font-weight: 600;
+    background-color: #33B8FF;
+    padding: 15px;
+    position: relative;
+    top: 30px;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#gcblock3 {
+    background-image: url('../img/gcpic3.jpg');
+    width: 700px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.gcad {
+    width: 350px;
+    height: 220px;
+    background-color: white;
+    margin-left: 10px;
+    border: 4px solid blue;
+    z-index: 600;
+    margin-top: :100px;
+    padding-top: 35px;
+    margin-bottom: 10px;
+}
+
+.gcad a {
+
+
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    background: orange;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none
+}
+
+.gcad h1 {
+    padding-top: 20px;
+    margin-left: 10px;
+    font-size: 28px
+}
+
+.gcad p {
+    color: blue;
+    font-weight: 900;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.gcad h3 {
+    color: grey;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.icos {
+    color: grey;
+    margin-left: 10px;
+}
+
+.gccontact {
+    width: 350px;
+    height: 60x;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: :10px;
+    padding-top: 0x;
+    display: inline-block;
+}
+
+.gccontact img {
+    width: 42px;
+    height: 42px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    float: left;
+
+
+}
+
+
+.her {
+    float: none;
+    padding-left: 70px;
+    padding-top: 15px;
+
+
+
+}
+
+.gccontact p {
+    font-size: 12px;
+    color: grey;
+}
+
+.gccontact a {
+    background: blue;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 20px;
+    margin-top: -29px
+}

@@ -1,0 +1,108 @@
+/** {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}*/
+
+
+
+
+
+html {
+    background: url(/imag/familia.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+body{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.headbang img{
+    
+    width:50px;
+    margin-top: 20px; 
+    margin-left: auto
+}
+
+
+h1 {
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+
+    text-shadow:
+
+        8px 4px 0 grey;
+
+}
+
+.tucamino {
+   
+    width: 180px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 50px;
+    
+  
+}
+
+.tucamino img {
+    width: 100px;
+    padding-left: 48px
+}
+
+.tucamino a {
+    color: green;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.tucamino:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.6);
+}
+
+
+.eltunel {
+   
+    width: 150px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 70px;
+ 
+
+}
+
+.eltunel a {
+    color: red;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    margin-left: px;
+}
+
+.eltunel img {
+    width: 150px;
+    margin-right:0px;
+}
+
+.eltunel:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.6);
+}
+
